@@ -105,5 +105,28 @@ function privat(hidden) {
 privat(persanalMovieDb.privat);
 
 
+/* уроки */
+
+/* методы */
+
+const s = 'qwer erty';
+
+console.log(s.indexOf('e'));/* 2 */
+
+console.log(s.slice(2, 6));/* er e */
+console.log(s.substring(2, 6));/* er e */
+
+console.log(s.substr(2/* со второй позиции */, 4/*вырежет четыре символа*/));/* er e */
+
+/* методы чисел */
+const num = 12.6;
+console.log(Math.round(num));/* 13 */
+const num2 = 12.3;
+console.log(Math.round(num2));/* 12 */
+
+const px = '12.3px';
+console.log(parseInt(px));/* 12 преобразует в число */
+console.log(parseFloat(px));/* 12.3 */
+
 
 
